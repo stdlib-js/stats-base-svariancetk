@@ -127,7 +127,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.svariancetk;
+})();
 })();
 </script>
 ```
@@ -246,6 +248,7 @@ var v = svariancetk.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-svariancetk@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -259,6 +262,7 @@ console.log( x );
 var v = svariancetk( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -370,7 +374,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -378,15 +382,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dvariancetk]: https://github.com/stdlib-js/stats-base-dvariancetk/tree/umd
+[@stdlib/stats/base/dvariancetk]: https://github.com/stdlib-js/stats-base-dvariancetk/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanvariancetk]: https://github.com/stdlib-js/stats-base-snanvariancetk/tree/umd
+[@stdlib/stats/base/snanvariancetk]: https://github.com/stdlib-js/stats-base-snanvariancetk/tree/umd/tree/umd
 
-[@stdlib/stats/base/sstdevtk]: https://github.com/stdlib-js/stats-base-sstdevtk/tree/umd
+[@stdlib/stats/base/sstdevtk]: https://github.com/stdlib-js/stats-base-sstdevtk/tree/umd/tree/umd
 
-[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats-base-svariance/tree/umd
+[@stdlib/stats/base/svariance]: https://github.com/stdlib-js/stats-base-svariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/variancetk]: https://github.com/stdlib-js/stats-base-variancetk/tree/umd
+[@stdlib/stats/base/variancetk]: https://github.com/stdlib-js/stats-base-variancetk/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
