@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-25)
+## Unreleased (2025-01-06)
+
+<section class="features">
+
+### Features
+
+-   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570) _(by Aayush Khanna)_
 -   [`40818ea`](https://github.com/stdlib-js/stdlib/commit/40818ea2b274cfbff6289c41539e4c58021b00a6) - **refactor:** update `stats/base/svariancetk` native addon from C++ to C [(#4209)](https://github.com/stdlib-js/stdlib/pull/4209) _(by Vinit Pandit, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
@@ -28,8 +39,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
 -   Vinit Pandit
