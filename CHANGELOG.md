@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
 -   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570) _(by Aayush Khanna)_
 -   [`40818ea`](https://github.com/stdlib-js/stdlib/commit/40818ea2b274cfbff6289c41539e4c58021b00a6) - **refactor:** update `stats/base/svariancetk` native addon from C++ to C [(#4209)](https://github.com/stdlib-js/stdlib/pull/4209) _(by Vinit Pandit, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
