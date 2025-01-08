@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-01-08)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
 -   [`d5d5a5a`](https://github.com/stdlib-js/stdlib/commit/d5d5a5ae5c030f09dd24d2e91422d68827c184b7) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariancetk` [(#4570)](https://github.com/stdlib-js/stdlib/pull/4570) _(by Aayush Khanna)_
 -   [`40818ea`](https://github.com/stdlib-js/stdlib/commit/40818ea2b274cfbff6289c41539e4c58021b00a6) - **refactor:** update `stats/base/svariancetk` native addon from C++ to C [(#4209)](https://github.com/stdlib-js/stdlib/pull/4209) _(by Vinit Pandit, Athan Reines)_
